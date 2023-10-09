@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[G_GAME]
+(
+	[g_id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[g_title] VARCHAR(50) NOT NULL UNIQUE,
+	[g_resume] VARCHAR(MAX) NOT NULL,
+)
